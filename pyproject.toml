@@ -1,0 +1,14 @@
+[project]
+name = "sidereal-time-tools"
+version = "0.1.0"
+description = "Computes local mean sidereal time from a civil date and time."
+requires-python = ">=3.10"
+dependencies = []
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
